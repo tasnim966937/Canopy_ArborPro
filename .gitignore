@@ -1,0 +1,45 @@
+# Cached data (large raster files — not for version control)
+data/
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+*.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Brain sessions are project-specific memory (keep brain/ tracked)
+# but ignore large archives
+brain/decisions-archive.md
+
+# Windows scripts
+brain-init.ps1
+
+# Misc artifacts
+=4.12.0
+*.qgz
+cache/
+
+# Cursor IDE
+.cursor/
